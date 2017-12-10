@@ -31,7 +31,7 @@ public class FileServiceTest {
 	@Test
 	public void testScanDirectory() {
 		
-		String directory = "/Users/jay/test"; // Your file directory
+		String directory = "src/test/java/"; // Your file directory
 		fileService.scanDirectory(directory);
 	}
 
@@ -39,7 +39,7 @@ public class FileServiceTest {
 	@Test
 	public void scanDirectoryFilterByMime() {
 		
-		String directory = "/Users/jay/test"; // Your file directory
+		String directory = "src/test/java/"; // Your file directory
 		fileService.scanDirectoryFilterByMime(directory,"text/plain");
 	}
 }
