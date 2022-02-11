@@ -1,0 +1,28 @@
+{
+  "browsers": [
+    [
+      {
+        "type": "chrome",
+        "version": "latest"
+      }
+    ],
+    [
+      {
+        "type": "firefox",
+        "version": "latest"
+      }
+    ],
+    [
+      {
+        "type": "edge",
+        "version": "beta"
+      }
+    ],
+    [
+      {
+        "type": "opera",
+        "version": "latest"
+      }
+    ]
+  ]
+}
